@@ -18,4 +18,7 @@ dictionary = {
 "substantial" : "önemli, esaslı"
 
     }
+
+dictionary["book"] = "kitap"
+
 print(dictionary.keys())
