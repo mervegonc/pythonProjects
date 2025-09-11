@@ -11,8 +11,11 @@ list[0]= 6
 print(tupleList[-2])#this brings the second index in the list
 print(list[-2])
 
-print(tupleList[1:2])#this brings the second index in the list
+print(tupleList[1:2])
 print(list[1:2])
+
+tupleValue = ("Merve",)
+print(type(tupleValue))
 
 print(type(tupleList))
 print(type(list))
