@@ -11,4 +11,4 @@ if currentLight == "yellow":
     print("get ready")    
 
 if currentLight == "green":
-    print("go")
+    print("start")
