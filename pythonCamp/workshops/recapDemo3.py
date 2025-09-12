@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
 number = int(input("Enter The Number : "))
-isPrimary = True
+isPrime = True
 for x in range(2,number):
     if number % x == 0:
-        isPrimary = False
+        isPrime = False
         break
 
-if isPrimary:
-    print(number, " is primary ")
+if isPrime:
+    print(number, " is prime number")
     
 else:
-        print(number, " is NOT primary ")
+        print(number, " is not prime number")
         
         
    
