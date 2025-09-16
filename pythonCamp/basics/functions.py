@@ -17,3 +17,8 @@ sayHi()
 sayHi("Merve")
 sayHi2("Arzu", "Köncü")
 sayHi2("Arzu")
+
+def rightTriangleCalculate(a,b):
+    return a*b/2
+
+print(rightTriangleCalculate(2, 6))
