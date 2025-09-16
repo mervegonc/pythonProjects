@@ -22,3 +22,9 @@ def rightTriangleCalculate(a,b):
     return a*b/2
 
 print(rightTriangleCalculate(2, 6))
+
+#&&
+rightTriangleCalculate2 = lambda a,b : a*b/2
+
+print(rightTriangleCalculate2(3,8))
+print(type(rightTriangleCalculate2))
