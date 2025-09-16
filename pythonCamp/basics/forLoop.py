@@ -1,14 +1,19 @@
 # -*- coding: utf-8 -*-
 
 cities = ["Ankara", "İstanbul", "Çorum"]
-print(cities[0])
+"""print(cities[0])
 print(cities[1])
-print(cities[2])
+print(cities[2])"""
 
-  
+#%%
 for city in cities:
     if city == "Ankara":
         break
         print(city + "s code is: " + city[0:3]) 
         print("************")
- 
+
+#%%
+for x in range(1,10,2):
+    print(x)
+    
+#It increases from 1 to 10 by two.
